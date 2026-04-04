@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
   "description": "Compile notes into a structured Wiki using LLMs, inspired by Karpathy's LLM Knowledge Bases.",
-  "author": "wiki-compiler",
+  "author": "Colin Zhu",
+  "authorUrl": "https://github.com/colin4k",
   "isDesktopOnly": false
 }
