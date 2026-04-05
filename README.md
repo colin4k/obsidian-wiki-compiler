@@ -16,7 +16,7 @@ Transform your Obsidian notes into a structured, interconnected Wiki using LLMs.
 - **Customizable categories** — define your own category list in Settings; auto-updates when you switch output language
 - **Bidirectional wikilinks** — new articles link to existing ones, and existing articles are incrementally updated with relevant new knowledge
 - **Concept extraction** — automatically extracts high-frequency concepts across articles, enriches them via SearXNG web search, generates dedicated concept pages, and injects bidirectional links after all pages are created
-- **Wiki query** — ask questions about your wiki and get answers with `[[citations]]`, optionally saved as query notes
+- **Wiki query** — ask questions about your wiki and get answers with academic-style numbered citations `[1][2]`; click citation numbers to jump to references; copy answer to clipboard; results saved as query notes
 - **Wiki lint** — health check that finds contradictions, orphan pages, missing concepts, and stale content
 - **Source archival** — processed notes are moved to `raw/` folder to avoid reprocessing
 - **Cumulative index** — `_index.md` merges all articles across sessions, organized by category
@@ -94,7 +94,7 @@ All `.md` files in subdirectories are included recursively.
 
 Command palette: `Wiki Compiler: Query Wiki`
 
-A modal opens where you can ask questions. The LLM answers based on your wiki content with `[[wikilink]]` citations. Click **Save to Wiki** to persist the Q&A as a note in `Wiki/Queries/`.
+A modal opens where you can ask questions. The LLM answers based on your wiki content with academic-style numbered citations — `[1]`, `[2]` in the body, with a **References** section at the end listing the cited wiki pages. Click any citation number to jump to its reference. Click **Copy** to copy the raw answer to clipboard, or **Save to Wiki** to persist the Q&A as a note in `Wiki/Queries/`.
 
 ### Lint (health check)
 

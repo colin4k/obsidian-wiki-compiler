@@ -1,7 +1,7 @@
 {
   "id": "wiki-compiler",
   "name": "Wiki Compiler",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minAppVersion": "1.4.0",
   "description": "Compile notes into a structured Wiki using LLMs, inspired by Karpathy's LLM Knowledge Bases.",
   "author": "Colin Zhu",
